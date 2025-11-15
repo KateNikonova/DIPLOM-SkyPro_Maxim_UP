@@ -1,10 +1,9 @@
-from pages3.AddToCart import AddToCart 
+from pages.search_page import AddToCart
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
-from time import sleep
 
-def test_open_page():
+
+
+def test_():
     """Запускающая функция для тестирования класса AddToCart"""
     # Инициализация драйвера
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))

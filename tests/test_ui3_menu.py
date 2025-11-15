@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from pages3.TestMenu import TestMenu
+from pages.TestMenu import TestMenu
 
 def test_with_simple_maximize():
     """Простой способ с maximize_window()"""

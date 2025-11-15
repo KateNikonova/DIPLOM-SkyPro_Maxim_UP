@@ -1,4 +1,4 @@
-from pages3.Footer import Footer 
+from pages.Footer import Footer
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
