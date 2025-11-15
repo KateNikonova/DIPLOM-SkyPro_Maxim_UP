@@ -28,7 +28,9 @@ class SearchPage:
         buy_buttons = self.wait.until(
             EC.presence_of_all_elements_located(self.buy_button_locator)
         )
-        self.driver.execute_script("arguments[0].scrollIntoView();", buy_buttons[0])
+        self.driver.execute_script(
+            "arguments[0].scrollIntoView();",
+            buy_buttons[0])
         self.driver.execute_script("arguments[0].click();", buy_buttons[0])
 
     def go_to_cart(self):
